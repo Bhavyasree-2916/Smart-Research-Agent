@@ -1,0 +1,68 @@
+/* ---------- Main App ---------- */
+
+.stApp {
+    background-color: #f5f7fb;
+}
+
+/* ---------- Buttons ---------- */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.02);
+}
+
+/* ---------- Text Input ---------- */
+
+.stTextInput input {
+    border-radius: 10px;
+}
+
+/* ---------- Metrics ---------- */
+
+[data-testid="metric-container"] {
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+/* ---------- Expander ---------- */
+
+.streamlit-expanderHeader {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* ---------- Sidebar ---------- */
+
+section[data-testid="stSidebar"] {
+    background-color: #ffffff;
+}
+
+/* ---------- Tabs ---------- */
+
+button[data-baseweb="tab"] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ---------- Success Messages ---------- */
+
+.stSuccess {
+    border-radius: 10px;
+}
+
+/* ---------- Info Messages ---------- */
+
+.stInfo {
+    border-radius: 10px;
+}
